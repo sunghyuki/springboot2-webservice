@@ -1,0 +1,8 @@
+com/sunghyuki/book/springboot/domain/posts/PostsRepositoryTest.java
+ com.sunghyuki.book.springboot.domain.posts.PostsRepositoryTest
+com/sunghyuki/book/springboot/web/dto/HelloResponseDtoTest.java
+ com.sunghyuki.book.springboot.web.dto.HelloResponseDtoTest
+com/sunghyuki/book/springboot/web/PostsApiControllerTest.java
+ com.sunghyuki.book.springboot.web.PostsApiControllerTest
+com/sunghyuki/book/springboot/web/HelloControllerTest.java
+ com.sunghyuki.book.springboot.web.HelloControllerTest

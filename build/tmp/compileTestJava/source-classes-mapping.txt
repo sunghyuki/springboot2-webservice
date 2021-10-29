@@ -1,3 +1,5 @@
+com/sunghyuki/book/springboot/web/IndexControllerTest.java
+ com.sunghyuki.book.springboot.web.IndexControllerTest
 com/sunghyuki/book/springboot/domain/posts/PostsRepositoryTest.java
  com.sunghyuki.book.springboot.domain.posts.PostsRepositoryTest
 com/sunghyuki/book/springboot/web/dto/HelloResponseDtoTest.java

@@ -1,25 +1,29 @@
-com/sunghyuki/book/springboot/domain/posts/PostsRepository.java
- com.sunghyuki.book.springboot.domain.posts.PostsRepository
+com/sunghyuki/book/springboot/domain/posts/Posts.java
+ com.sunghyuki.book.springboot.domain.posts.Posts
+ com.sunghyuki.book.springboot.domain.posts.Posts$PostsBuilder
 com/sunghyuki/book/springboot/web/dto/HelloResponseDto.java
  com.sunghyuki.book.springboot.web.dto.HelloResponseDto
+com/sunghyuki/book/springboot/web/dto/PostsSaveRequestDto.java
+ com.sunghyuki.book.springboot.web.dto.PostsSaveRequestDto
+ com.sunghyuki.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/sunghyuki/book/springboot/domain/BaseTimeEntity.java
+ com.sunghyuki.book.springboot.domain.BaseTimeEntity
+com/sunghyuki/book/springboot/Application.java
+ com.sunghyuki.book.springboot.Application
 com/sunghyuki/book/springboot/web/HelloController.java
  com.sunghyuki.book.springboot.web.HelloController
 com/sunghyuki/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.sunghyuki.book.springboot.web.dto.PostsUpdateRequestDto
  com.sunghyuki.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/sunghyuki/book/springboot/domain/posts/Posts.java
- com.sunghyuki.book.springboot.domain.posts.Posts
- com.sunghyuki.book.springboot.domain.posts.Posts$PostsBuilder
-com/sunghyuki/book/springboot/web/dto/PostsSaveRequestDto.java
- com.sunghyuki.book.springboot.web.dto.PostsSaveRequestDto
- com.sunghyuki.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/sunghyuki/book/springboot/service/PostsService.java
- com.sunghyuki.book.springboot.service.PostsService
-com/sunghyuki/book/springboot/Application.java
- com.sunghyuki.book.springboot.Application
-com/sunghyuki/book/springboot/domain/BaseTimeEntity.java
- com.sunghyuki.book.springboot.domain.BaseTimeEntity
-com/sunghyuki/book/springboot/web/PostsApiController.java
- com.sunghyuki.book.springboot.web.PostsApiController
 com/sunghyuki/book/springboot/web/dto/PostsResponseDto.java
  com.sunghyuki.book.springboot.web.dto.PostsResponseDto
+com/sunghyuki/book/springboot/web/dto/PostsListResponseDto.java
+ com.sunghyuki.book.springboot.web.dto.PostsListResponseDto
+com/sunghyuki/book/springboot/domain/posts/PostsRepository.java
+ com.sunghyuki.book.springboot.domain.posts.PostsRepository
+com/sunghyuki/book/springboot/service/PostsService.java
+ com.sunghyuki.book.springboot.service.PostsService
+com/sunghyuki/book/springboot/web/IndexController.java
+ com.sunghyuki.book.springboot.web.IndexController
+com/sunghyuki/book/springboot/web/PostsApiController.java
+ com.sunghyuki.book.springboot.web.PostsApiController

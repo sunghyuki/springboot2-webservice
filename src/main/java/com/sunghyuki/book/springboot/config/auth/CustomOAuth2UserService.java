@@ -1,5 +1,6 @@
 package com.sunghyuki.book.springboot.config.auth;
 
+import com.sunghyuki.book.springboot.config.auth.dto.OAuthAttributes;
 import com.sunghyuki.book.springboot.domain.user.User;
 import com.sunghyuki.book.springboot.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -34,7 +35,7 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
         User user = saveOrUpdate(attributes);
         httpSession.setAttribute("user", new SessionUser(user));
 
-        return new DefaultOAuth2User(Collections.singleton(new SimpleGrantedAuthority(user.getRoleKey())), attributes.getName(), attributes.getPicture());
+        return new DefaultOAuth2User(Collections.singleton(new SimpleGrantedAuthority(user.getRoleKey())), attributes.getAttributes(), attributes.getNameAttributeKey());
     }
 
     private User saveOrUpdate(OAuthAttributes attributes) {

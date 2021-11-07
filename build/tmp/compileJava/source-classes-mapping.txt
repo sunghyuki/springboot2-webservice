@@ -1,7 +1,7 @@
 com/sunghyuki/book/springboot/config/auth/SecurityConfig.java
  com.sunghyuki.book.springboot.config.auth.SecurityConfig
-com/sunghyuki/book/springboot/config/auth/CustomOAuth2UserService.java
- com.sunghyuki.book.springboot.config.auth.CustomOAuth2UserService
+com/sunghyuki/book/springboot/web/PostsApiController.java
+ com.sunghyuki.book.springboot.web.PostsApiController
 com/sunghyuki/book/springboot/config/auth/LoginUser.java
  com.sunghyuki.book.springboot.config.auth.LoginUser
 com/sunghyuki/book/springboot/domain/posts/Posts.java
@@ -37,15 +37,17 @@ com/sunghyuki/book/springboot/web/dto/PostsListResponseDto.java
  com.sunghyuki.book.springboot.web.dto.PostsListResponseDto
 com/sunghyuki/book/springboot/service/PostsService.java
  com.sunghyuki.book.springboot.service.PostsService
-com/sunghyuki/book/springboot/Application.java
- com.sunghyuki.book.springboot.Application
+com/sunghyuki/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.sunghyuki.book.springboot.config.auth.dto.OAuthAttributes
+ com.sunghyuki.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
 com/sunghyuki/book/springboot/web/IndexController.java
  com.sunghyuki.book.springboot.web.IndexController
 com/sunghyuki/book/springboot/web/dto/PostsUpdateRequestDto.java
  com.sunghyuki.book.springboot.web.dto.PostsUpdateRequestDto
  com.sunghyuki.book.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/sunghyuki/book/springboot/web/PostsApiController.java
- com.sunghyuki.book.springboot.web.PostsApiController
-com/sunghyuki/book/springboot/config/auth/dto/OAuthAttributes.java
- com.sunghyuki.book.springboot.config.auth.dto.OAuthAttributes
- com.sunghyuki.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/sunghyuki/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.sunghyuki.book.springboot.config.auth.CustomOAuth2UserService
+com/sunghyuki/book/springboot/config/JpaConfig.java
+ com.sunghyuki.book.springboot.config.JpaConfig
+com/sunghyuki/book/springboot/Application.java
+ com.sunghyuki.book.springboot.Application

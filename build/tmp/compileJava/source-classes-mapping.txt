@@ -2,11 +2,17 @@ com/sunghyuki/book/springboot/config/auth/SecurityConfig.java
  com.sunghyuki.book.springboot.config.auth.SecurityConfig
 com/sunghyuki/book/springboot/config/auth/CustomOAuth2UserService.java
  com.sunghyuki.book.springboot.config.auth.CustomOAuth2UserService
+com/sunghyuki/book/springboot/config/auth/LoginUser.java
+ com.sunghyuki.book.springboot.config.auth.LoginUser
 com/sunghyuki/book/springboot/domain/posts/Posts.java
  com.sunghyuki.book.springboot.domain.posts.Posts
  com.sunghyuki.book.springboot.domain.posts.Posts$PostsBuilder
 com/sunghyuki/book/springboot/web/dto/HelloResponseDto.java
  com.sunghyuki.book.springboot.web.dto.HelloResponseDto
+com/sunghyuki/book/springboot/config/WebConfig.java
+ com.sunghyuki.book.springboot.config.WebConfig
+com/sunghyuki/book/springboot/config/auth/LoginUserArgumentResolver.java
+ com.sunghyuki.book.springboot.config.auth.LoginUserArgumentResolver
 com/sunghyuki/book/springboot/web/HelloController.java
  com.sunghyuki.book.springboot.web.HelloController
 com/sunghyuki/book/springboot/domain/posts/PostsRepository.java

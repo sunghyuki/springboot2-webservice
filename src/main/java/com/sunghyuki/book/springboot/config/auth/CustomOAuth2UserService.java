@@ -1,6 +1,7 @@
 package com.sunghyuki.book.springboot.config.auth;
 
 import com.sunghyuki.book.springboot.config.auth.dto.OAuthAttributes;
+import com.sunghyuki.book.springboot.config.auth.dto.SessionUser;
 import com.sunghyuki.book.springboot.domain.user.User;
 import com.sunghyuki.book.springboot.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;

@@ -13,8 +13,11 @@ permissions:
     owner: ec2-user
     group: ec2-user
 
-#hooks:
-#  ApplicationStart:
+hooks:
+  ApplicationStart:
+    - location: deploy.sh
+      timeout: 60
+      runas: ec2-user
 #    - location: scripts/run_new_was.sh
 #      timeout: 180
 #      runas: ec2-user
